@@ -1,0 +1,9 @@
+--Challenge 10 - CREATE TABLE
+
+CREATE TABLE leads(
+lead_id SERIAL PRIMARY KEY,
+first_name VARCHAR(200) NOT NULL,
+last_name VARCHAR(200) NOT NULL,
+email VARCHAR(300) UNIQUE NOT NULL,
+sign_up_date TIMESTAMP NOT NULL,
+minutes_spent INTEGER NOT NULL);
